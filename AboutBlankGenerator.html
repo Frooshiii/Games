@@ -1,0 +1,48 @@
+<input type="text" name="" id="id"></input>
+<p style="font-size:20px;
+font-family:cubic;color:black;
+position:relative;
+top:60%;
+left:47%;
+margin:-49px-50px
+">Coded By R480</p>
+<p style="font-size:20px;
+font-family:cubic;color:blue;
+position:relative;
+top:60%;
+left:45%; 
+margin:-49px-50px
+">(Founder of Maxinum:)</p>
+
+<head>
+
+  <head>
+  </head>
+  <button onclick="openGame()" style="height:150px;
+width:300px;background-color:grey;
+font-size:20px;
+font-family:cubic;
+color:black;
+position:relative;
+margin:-40px -60px;
+top:20%;
+left:45%;
+">Open Proxy</button>
+<body>
+  <script>
+      
+    function openGame() {
+      var win = window.open()
+      var url = String(document.getElementById("id").value) //<------ this is where you put the link -reminder for r480
+      var iframe = win.document.createElement('iframe')
+      iframe.style.width = "100%";
+      iframe.style.height = "100%"
+      iframe.style.border = "none";
+      iframe.src = url
+      win.document.body.appendChild(iframe)
+      location.replace("https://launchpad.classlink.com/warren") //<----------- this is the link you want your history to see.
+
+    }
+
+  </script>
+</body>
